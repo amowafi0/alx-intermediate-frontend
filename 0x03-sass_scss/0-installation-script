@@ -1,0 +1,40 @@
+# SASS Installation Steps
+
+## Directory Setup
+1. Navigate to alx-intermediate-frontend repository
+2. Create new directory: mkdir 0x03-sass_scss
+3. Navigate into the directory: cd 0x03-sass_scss
+
+## Node.js Installation (Ubuntu/Linux)
+1. Install Node Version Manager (nvm):
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+2. Exit terminal and reopen it to load nvm
+
+3. Install Node.js version 20.16:
+   nvm install 20.16
+   nvm use 20.16
+
+## SASS Installation
+1. Install Sass globally using npm:
+   npm install -g sass
+
+   OR
+
+   Install specific version (if needed):
+   npm install sass@3.7.4
+
+2. Verify installation:
+   sass --version
+
+## Alternative Installation Methods
+- Using npm locally in project: npm install sass
+- Using Yarn: yarn add sass
+- Using Homebrew (macOS): brew install sass/sass/sass
+- Using Chocolatey (Windows): choco install sass
+
+## Verification
+- Check if sass command works: sass --help
+- Test compilation: sass input.scss output.css
+
+@debug "Hello world";
